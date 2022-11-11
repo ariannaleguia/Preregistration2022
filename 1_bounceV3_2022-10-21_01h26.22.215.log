@@ -1,0 +1,309 @@
+5.3561 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+10.3102 	INFO 	Loaded monitor calibration from ['2022_09_29 04:26']
+11.7400 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000020B9E8650A0>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000020B9EDF80A0>, multiSample=False, name='window1', numSamples=2, pos=(0, 0), screen=0, size=array([1920, 1080]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+11.7401 	EXP 	window1: mouseVisible = True
+11.7402 	EXP 	window1: mouseVisible = False
+11.7402 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+11.7402 	EXP 	window1: recordFrameIntervals = False
+11.9053 	EXP 	window1: recordFrameIntervals = True
+12.0900 	EXP 	Screen (0) actual frame rate measured at 59.77Hz
+12.0900 	EXP 	window1: recordFrameIntervals = False
+14.7266 	INFO 	keyboard.Keyboard is using iohub backend.
+14.8975 	EXP 	Created instrText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instrText', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.8986 	EXP 	Created instrStats = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instrStats', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.8995 	EXP 	Created instrRepeat = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instrRepeat', opacity=1.0, ori=0, pos=array([0. , 0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.8996 	INFO 	keyboard.Keyboard is using iohub backend.
+14.8998 	EXP 	window1: mouseVisible = True
+14.9064 	EXP 	Created fixCursor = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1, name='fixCursor', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+14.9137 	EXP 	Created fixCircle = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, fillColor=array([-1.   ,  0.004,  1.   ]), fillColorSpace='rgb', fillRGB=array([-1.   ,  0.004,  1.   ]), interpolate=True, lineColor=array([-1.   ,  0.004,  1.   ]), lineColorSpace='rgb', lineRGB=array([-1.   ,  0.004,  1.   ]), lineWidth=1, name='fixCircle', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.025, 0.025]), units='height', vertices=ndarray(...), win=Window(...))
+14.9153 	EXP 	Created feedbackText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-5.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='feedbackText', opacity=1.0, ori=0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.9167 	EXP 	Created fixText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fixText', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.9184 	EXP 	Created fixArrow = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.15, italic=False, languageStyle='LTR', name='fixArrow', opacity=1.0, ori=0, pos=array([ 0. , -0.2]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.9194 	EXP 	Created fixPoints = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fixPoints', opacity=1.0, ori=0, pos=array([-0.4, -0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.9203 	EXP 	Created fixHits = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-9.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fixHits', opacity=1.0, ori=0, pos=array([ 0.4, -0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.9211 	EXP 	Created fixRepeat = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-10.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='fixRepeat', opacity=1.0, ori=0, pos=array([0. , 0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.9212 	EXP 	window1: mouseVisible = True
+14.9219 	EXP 	Created trialWall = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1, 1, 1]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1, name='trialWall', opacity=1.0, ori=0.0, pos=array([0. , 0.3]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+14.9226 	EXP 	Created trialCursor = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1, -1, -1]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1, name='trialCursor', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), units='height', vertices=ndarray(...), win=Window(...))
+14.9266 	EXP 	Created trialCircle = Polygon(__class__=<class 'psychopy.visual.polygon.Polygon'>, anchor=('center', 'center'), autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-5.0, fillColor=array([-1, -1, -1]), fillColorSpace='rgb', fillRGB=array([-1, -1, -1]), interpolate=True, lineColor=array([-1, -1, -1]), lineColorSpace='rgb', lineRGB=array([-1, -1, -1]), lineWidth=1, name='trialCircle', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.025, 0.025]), units='height', vertices=ndarray(...), win=Window(...))
+14.9275 	EXP 	Created trialHits = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trialHits', opacity=1.0, ori=0, pos=array([ 0.4, -0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.9283 	EXP 	Created trialPoints = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trialPoints', opacity=1.0, ori=0, pos=array([-0.4, -0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.9292 	EXP 	Created trialRepeat = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='trialRepeat', opacity=1.0, ori=0, pos=array([0. , 0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+14.9576 	EXP 	Sound sound_1 set volume 1.000
+14.9986 	EXP 	Created endText = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='endText', opacity=1.0, ori=0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+14.9996 	EXP 	Created endHits = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='endHits', opacity=1.0, ori=0, pos=array([ 0. , -0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+15.0005 	EXP 	Created endPoints = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1, 1, 1]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='endPoints', opacity=1.0, ori=0, pos=array([0. , 0.4]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+15.0006 	INFO 	keyboard.Keyboard is using iohub backend.
+15.0017 	EXP 	Created sequence: sequential, trialTypes=1, nReps=8, seed=None
+15.0019 	EXP 	New trial (rep=0, index=0): None
+15.1324 	EXP 	instrRepeat: height = 0.05
+15.1324 	EXP 	instrRepeat: height = 0.05
+15.1324 	EXP 	instrRepeat: height = 0.05
+15.1324 	EXP 	instrRepeat: text = 'Block 1 / 8'
+15.1324 	EXP 	instrText: height = 0.05
+15.1324 	EXP 	instrText: height = 0.05
+15.1324 	EXP 	instrText: height = 0.05
+15.1324 	EXP 	instrText: text = "Catch the ball for 8 blocks of 50 trials. Try your best to use the center of the paddle as it will allow you to get the most points.\nYou can take a short break now and press 'space' when ready to continue."
+15.1324 	EXP 	instrStats: text = ''
+15.1324 	EXP 	instrText: autoDraw = True
+15.1324 	EXP 	instrStats: autoDraw = True
+15.1324 	EXP 	instrRepeat: autoDraw = True
+16.1749 	DEBUG 	Read csv file with pandas: loopTemplate1.csv
+16.1757 	DEBUG 	Clearing unnamed columns from loopTemplate1.csv
+16.1759 	EXP 	Imported loopTemplate1.csv as conditions, 2 conditions, 1 params
+16.1772 	EXP 	Created sequence: fullRandom, trialTypes=2, nReps=50, seed=None
+16.1775 	EXP 	New trial (rep=0, index=0): OrderedDict([('Sound', 0.0)])
+16.1989 	DATA 	Keypress: space
+16.2083 	EXP 	instrText: autoDraw = False
+16.2083 	EXP 	instrStats: autoDraw = False
+16.2083 	EXP 	instrRepeat: autoDraw = False
+16.2083 	EXP 	feedbackText: height = 0.05
+16.2083 	EXP 	feedbackText: height = 0.05
+16.2083 	EXP 	feedbackText: height = 0.05
+16.2083 	EXP 	feedbackText: text = 'Get ready!'
+16.2083 	EXP 	fixText: height = 0.05
+16.2083 	EXP 	fixText: height = 0.05
+16.2083 	EXP 	fixText: height = 0.05
+16.2083 	EXP 	fixText: text = 'Move right for 1 second to start.'
+16.2083 	EXP 	fixArrow: height = 0.15
+16.2083 	EXP 	fixArrow: height = 0.15
+16.2083 	EXP 	fixArrow: height = 0.15
+16.2083 	EXP 	fixArrow: text = '=>'
+16.2083 	EXP 	fixPoints: height = 0.05
+16.2083 	EXP 	fixPoints: height = 0.05
+16.2083 	EXP 	fixPoints: height = 0.05
+16.2083 	EXP 	fixPoints: text = 'Points: 0'
+16.2083 	EXP 	fixHits: height = 0.05
+16.2083 	EXP 	fixHits: height = 0.05
+16.2083 	EXP 	fixHits: height = 0.05
+16.2083 	EXP 	fixHits: text = 'Hits: 0 / 0'
+16.2083 	EXP 	fixRepeat: height = 0.05
+16.2083 	EXP 	fixRepeat: height = 0.05
+16.2083 	EXP 	fixRepeat: height = 0.05
+16.2083 	EXP 	fixRepeat: text = 'Block 1 / 8'
+16.2083 	EXP 	fixCursor: fillColor = <psychopy.colors.Color: black, alpha=1.0>
+16.2083 	EXP 	fixCursor: borderColor = <psychopy.colors.Color: black, alpha=1.0>
+16.2083 	EXP 	fixCursor: autoDraw = True
+16.2083 	EXP 	fixCircle: autoDraw = True
+16.2083 	EXP 	feedbackText: autoDraw = True
+16.2083 	EXP 	fixText: autoDraw = True
+16.2083 	EXP 	fixArrow: autoDraw = True
+16.2083 	EXP 	fixPoints: autoDraw = True
+16.2083 	EXP 	fixHits: autoDraw = True
+16.2083 	EXP 	fixRepeat: autoDraw = True
+17.4908 	DATA 	Mouse: Left button down, pos=(802,413)
+19.8720 	DATA 	Mouse:  Left button up, pos=(1825,397)
+19.9544 	EXP 	fixCursor: autoDraw = False
+19.9544 	EXP 	fixCircle: autoDraw = False
+19.9544 	EXP 	feedbackText: autoDraw = False
+19.9544 	EXP 	fixText: autoDraw = False
+19.9544 	EXP 	fixArrow: autoDraw = False
+19.9544 	EXP 	fixPoints: autoDraw = False
+19.9544 	EXP 	fixHits: autoDraw = False
+19.9544 	EXP 	fixRepeat: autoDraw = False
+19.9544 	EXP 	trialPoints: height = 0.05
+19.9544 	EXP 	trialPoints: height = 0.05
+19.9544 	EXP 	trialPoints: height = 0.05
+19.9544 	EXP 	trialPoints: text = 'Points: 0'
+19.9544 	EXP 	trialHits: height = 0.05
+19.9544 	EXP 	trialHits: height = 0.05
+19.9544 	EXP 	trialHits: height = 0.05
+19.9544 	EXP 	trialHits: text = 'Hits: 0 / 0'
+19.9544 	EXP 	trialRepeat: height = 0.05
+19.9544 	EXP 	trialRepeat: height = 0.05
+19.9544 	EXP 	trialRepeat: height = 0.05
+19.9544 	EXP 	trialRepeat: text = 'Block 1 / 8'
+19.9544 	EXP 	trialWall: autoDraw = True
+19.9544 	EXP 	trialCursor: autoDraw = True
+19.9544 	EXP 	trialCircle: autoDraw = True
+19.9544 	EXP 	trialHits: autoDraw = True
+19.9544 	EXP 	trialPoints: autoDraw = True
+19.9544 	EXP 	trialRepeat: autoDraw = True
+21.2740 	EXP 	New trial (rep=0, index=1): OrderedDict([('Sound', 0.0)])
+21.2878 	EXP 	trialWall: autoDraw = False
+21.2878 	EXP 	trialCursor: autoDraw = False
+21.2878 	EXP 	trialCircle: autoDraw = False
+21.2878 	EXP 	trialHits: autoDraw = False
+21.2878 	EXP 	trialPoints: autoDraw = False
+21.2878 	EXP 	trialRepeat: autoDraw = False
+21.2878 	EXP 	feedbackText: height = 0.05
+21.2878 	EXP 	feedbackText: height = 0.05
+21.2878 	EXP 	feedbackText: height = 0.05
+21.2878 	EXP 	feedbackText: text = 'miss'
+21.2878 	EXP 	fixText: text = 'Move right for 1 second to start.'
+21.2878 	EXP 	fixArrow: text = '=>'
+21.2878 	EXP 	fixPoints: text = 'Points: 0'
+21.2878 	EXP 	fixHits: height = 0.05
+21.2878 	EXP 	fixHits: height = 0.05
+21.2878 	EXP 	fixHits: height = 0.05
+21.2878 	EXP 	fixHits: text = 'Hits: 0 / 1'
+21.2878 	EXP 	fixRepeat: text = 'Block 1 / 8'
+21.2878 	EXP 	fixCursor: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+21.2878 	EXP 	fixCursor: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+21.2878 	EXP 	fixCursor: autoDraw = True
+21.2878 	EXP 	fixCircle: autoDraw = True
+21.2878 	EXP 	feedbackText: autoDraw = True
+21.2878 	EXP 	fixText: autoDraw = True
+21.2878 	EXP 	fixArrow: autoDraw = True
+21.2878 	EXP 	fixPoints: autoDraw = True
+21.2878 	EXP 	fixHits: autoDraw = True
+21.2878 	EXP 	fixRepeat: autoDraw = True
+22.2051 	DATA 	Mouse: Left button down, pos=(1040,372)
+23.8370 	DATA 	Mouse:  Left button up, pos=(1919,387)
+23.9533 	EXP 	fixCursor: autoDraw = False
+23.9533 	EXP 	fixCircle: autoDraw = False
+23.9533 	EXP 	feedbackText: autoDraw = False
+23.9533 	EXP 	fixText: autoDraw = False
+23.9533 	EXP 	fixArrow: autoDraw = False
+23.9533 	EXP 	fixPoints: autoDraw = False
+23.9533 	EXP 	fixHits: autoDraw = False
+23.9533 	EXP 	fixRepeat: autoDraw = False
+23.9533 	EXP 	trialPoints: text = 'Points: 0'
+23.9533 	EXP 	trialHits: height = 0.05
+23.9533 	EXP 	trialHits: height = 0.05
+23.9533 	EXP 	trialHits: height = 0.05
+23.9533 	EXP 	trialHits: text = 'Hits: 0 / 1'
+23.9533 	EXP 	trialRepeat: text = 'Block 1 / 8'
+23.9533 	EXP 	trialWall: autoDraw = True
+23.9533 	EXP 	trialCursor: autoDraw = True
+23.9533 	EXP 	trialCircle: autoDraw = True
+23.9533 	EXP 	trialHits: autoDraw = True
+23.9533 	EXP 	trialPoints: autoDraw = True
+23.9533 	EXP 	trialRepeat: autoDraw = True
+25.2735 	EXP 	New trial (rep=1, index=0): OrderedDict([('Sound', 0.0)])
+25.2871 	EXP 	trialWall: autoDraw = False
+25.2871 	EXP 	trialCursor: autoDraw = False
+25.2871 	EXP 	trialCircle: autoDraw = False
+25.2871 	EXP 	trialHits: autoDraw = False
+25.2871 	EXP 	trialPoints: autoDraw = False
+25.2871 	EXP 	trialRepeat: autoDraw = False
+25.2871 	EXP 	feedbackText: text = 'miss'
+25.2871 	EXP 	fixText: text = 'Move right for 1 second to start.'
+25.2871 	EXP 	fixArrow: text = '=>'
+25.2871 	EXP 	fixPoints: text = 'Points: 0'
+25.2871 	EXP 	fixHits: height = 0.05
+25.2871 	EXP 	fixHits: height = 0.05
+25.2871 	EXP 	fixHits: height = 0.05
+25.2871 	EXP 	fixHits: text = 'Hits: 0 / 2'
+25.2871 	EXP 	fixRepeat: text = 'Block 1 / 8'
+25.2871 	EXP 	fixCursor: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+25.2871 	EXP 	fixCursor: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+25.2871 	EXP 	fixCursor: autoDraw = True
+25.2871 	EXP 	fixCircle: autoDraw = True
+25.2871 	EXP 	feedbackText: autoDraw = True
+25.2871 	EXP 	fixText: autoDraw = True
+25.2871 	EXP 	fixArrow: autoDraw = True
+25.2871 	EXP 	fixPoints: autoDraw = True
+25.2871 	EXP 	fixHits: autoDraw = True
+25.2871 	EXP 	fixRepeat: autoDraw = True
+26.1540 	DATA 	Mouse: Left button down, pos=(888,392)
+27.9557 	DATA 	Mouse:  Left button up, pos=(1882,404)
+28.2202 	EXP 	fixCursor: autoDraw = False
+28.2202 	EXP 	fixCircle: autoDraw = False
+28.2202 	EXP 	feedbackText: autoDraw = False
+28.2202 	EXP 	fixText: autoDraw = False
+28.2202 	EXP 	fixArrow: autoDraw = False
+28.2202 	EXP 	fixPoints: autoDraw = False
+28.2202 	EXP 	fixHits: autoDraw = False
+28.2202 	EXP 	fixRepeat: autoDraw = False
+28.2202 	EXP 	trialPoints: text = 'Points: 0'
+28.2202 	EXP 	trialHits: height = 0.05
+28.2202 	EXP 	trialHits: height = 0.05
+28.2202 	EXP 	trialHits: height = 0.05
+28.2202 	EXP 	trialHits: text = 'Hits: 0 / 2'
+28.2202 	EXP 	trialRepeat: text = 'Block 1 / 8'
+28.2202 	EXP 	trialWall: autoDraw = True
+28.2202 	EXP 	trialCursor: autoDraw = True
+28.2202 	EXP 	trialCircle: autoDraw = True
+28.2202 	EXP 	trialHits: autoDraw = True
+28.2202 	EXP 	trialPoints: autoDraw = True
+28.2202 	EXP 	trialRepeat: autoDraw = True
+29.5388 	EXP 	New trial (rep=1, index=1): OrderedDict([('Sound', 0.5)])
+29.5557 	EXP 	trialWall: autoDraw = False
+29.5557 	EXP 	trialCursor: autoDraw = False
+29.5557 	EXP 	trialCircle: autoDraw = False
+29.5557 	EXP 	trialHits: autoDraw = False
+29.5557 	EXP 	trialPoints: autoDraw = False
+29.5557 	EXP 	trialRepeat: autoDraw = False
+29.5557 	EXP 	feedbackText: text = 'miss'
+29.5557 	EXP 	fixText: height = 0.05
+29.5557 	EXP 	fixText: height = 0.05
+29.5557 	EXP 	fixText: height = 0.05
+29.5557 	EXP 	fixText: text = 'Move left for 1 second to start.'
+29.5557 	EXP 	fixArrow: height = 0.15
+29.5557 	EXP 	fixArrow: height = 0.15
+29.5557 	EXP 	fixArrow: height = 0.15
+29.5557 	EXP 	fixArrow: text = '<='
+29.5557 	EXP 	fixPoints: text = 'Points: 0'
+29.5557 	EXP 	fixHits: height = 0.05
+29.5557 	EXP 	fixHits: height = 0.05
+29.5557 	EXP 	fixHits: height = 0.05
+29.5557 	EXP 	fixHits: text = 'Hits: 0 / 3'
+29.5557 	EXP 	fixRepeat: text = 'Block 1 / 8'
+29.5557 	EXP 	fixCursor: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+29.5557 	EXP 	fixCursor: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+29.5557 	EXP 	fixCursor: autoDraw = True
+29.5557 	EXP 	fixCircle: autoDraw = True
+29.5557 	EXP 	feedbackText: autoDraw = True
+29.5557 	EXP 	fixText: autoDraw = True
+29.5557 	EXP 	fixArrow: autoDraw = True
+29.5557 	EXP 	fixPoints: autoDraw = True
+29.5557 	EXP 	fixHits: autoDraw = True
+29.5557 	EXP 	fixRepeat: autoDraw = True
+30.2196 	DATA 	Mouse: Left button down, pos=(1012,405)
+31.7035 	DATA 	Mouse:  Left button up, pos=(0,439)
+32.1528 	EXP 	fixCursor: autoDraw = False
+32.1528 	EXP 	fixCircle: autoDraw = False
+32.1528 	EXP 	feedbackText: autoDraw = False
+32.1528 	EXP 	fixText: autoDraw = False
+32.1528 	EXP 	fixArrow: autoDraw = False
+32.1528 	EXP 	fixPoints: autoDraw = False
+32.1528 	EXP 	fixHits: autoDraw = False
+32.1528 	EXP 	fixRepeat: autoDraw = False
+32.1528 	EXP 	trialPoints: text = 'Points: 0'
+32.1528 	EXP 	trialHits: height = 0.05
+32.1528 	EXP 	trialHits: height = 0.05
+32.1528 	EXP 	trialHits: height = 0.05
+32.1528 	EXP 	trialHits: text = 'Hits: 0 / 3'
+32.1528 	EXP 	trialRepeat: text = 'Block 1 / 8'
+32.1528 	EXP 	trialWall: autoDraw = True
+32.1528 	EXP 	trialCursor: autoDraw = True
+32.1528 	EXP 	trialCircle: autoDraw = True
+32.1528 	EXP 	trialHits: autoDraw = True
+32.1528 	EXP 	trialPoints: autoDraw = True
+32.1528 	EXP 	trialRepeat: autoDraw = True
+33.4720 	EXP 	New trial (rep=2, index=0): OrderedDict([('Sound', 0.5)])
+33.5021 	EXP 	trialWall: autoDraw = False
+33.5021 	EXP 	trialCursor: autoDraw = False
+33.5021 	EXP 	trialCircle: autoDraw = False
+33.5021 	EXP 	trialHits: autoDraw = False
+33.5021 	EXP 	trialPoints: autoDraw = False
+33.5021 	EXP 	trialRepeat: autoDraw = False
+33.5021 	EXP 	feedbackText: text = 'miss'
+33.5021 	EXP 	fixText: height = 0.05
+33.5021 	EXP 	fixText: height = 0.05
+33.5021 	EXP 	fixText: height = 0.05
+33.5021 	EXP 	fixText: text = 'Move right for 1 second to start.'
+33.5021 	EXP 	fixArrow: height = 0.15
+33.5021 	EXP 	fixArrow: height = 0.15
+33.5021 	EXP 	fixArrow: height = 0.15
+33.5021 	EXP 	fixArrow: text = '=>'
+33.5021 	EXP 	fixPoints: text = 'Points: 0'
+33.5021 	EXP 	fixHits: height = 0.05
+33.5021 	EXP 	fixHits: height = 0.05
+33.5021 	EXP 	fixHits: height = 0.05
+33.5021 	EXP 	fixHits: text = 'Hits: 0 / 4'
+33.5021 	EXP 	fixRepeat: text = 'Block 1 / 8'
+33.5021 	EXP 	fixCursor: fillColor = <psychopy.colors.Color: red, alpha=1.0>
+33.5021 	EXP 	fixCursor: borderColor = <psychopy.colors.Color: red, alpha=1.0>
+33.5021 	EXP 	fixCursor: autoDraw = True
+33.5021 	EXP 	fixCircle: autoDraw = True
+33.5021 	EXP 	feedbackText: autoDraw = True
+33.5021 	EXP 	fixText: autoDraw = True
+33.5021 	EXP 	fixArrow: autoDraw = True
+33.5021 	EXP 	fixPoints: autoDraw = True
+33.5021 	EXP 	fixHits: autoDraw = True
+33.5021 	EXP 	fixRepeat: autoDraw = True
+34.2363 	DATA 	Keypress: escape
+34.9405 	EXP 	window1: mouseVisible = True
+34.9405 	DEBUG 	Saving data for bounceV3 ExperimentHandler
